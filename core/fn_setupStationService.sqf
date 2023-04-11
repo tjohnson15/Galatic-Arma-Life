@@ -150,7 +150,11 @@ private _tanoaPositions = [
     [11637.2,13052.8,-0.228891]
 ];
 
-private _stationPositions = [[["Altis", _altisPositions], ["Tanoa", _tanoaPositions]]] call life_util_fnc_terrainSort;
+private _3as_tatooinePositions = [
+    [12019.6,13646.9,0]
+];
+
+private _stationPositions = [[["Altis", _altisPositions], ["3as_tatooine", _3as_tatooinePositions], ["Tanoa", _tanoaPositions]]] call life_util_fnc_terrainSort;
 
 {
     private _pump = nearestObjects [_x,["Land_fs_feed_F","Land_FuelStation_01_pump_F","Land_FuelStation_02_pump_F"],5] select 0;
