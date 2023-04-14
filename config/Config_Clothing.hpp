@@ -160,10 +160,10 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "" },
-            { "ls_gar_standard_backpack", "", 100, "cop life_coplevel >= 1" },
-            { "ls_gar_medic_backpack", "", 100, "cop life_coplevel >=2 " },
-            { "ls_gar_rocket_backpack", "", 100, "cop life_coplevel >=3" },
-            { "ls_gar_heavy_backpack", "", 100, "cop life_coplevel >=2" }
+            { "ls_gar_standard_backpack", "", 100, "call life_coplevel >= 1" },
+            { "ls_gar_medic_backpack", "", 100, "call life_coplevel >= 2" },
+            { "ls_gar_rocket_backpack", "", 100, "call life_coplevel >= 3" },
+            { "ls_gar_heavy_backpack", "", 100, "call life_coplevel >= 2" }
         };
 
     };
