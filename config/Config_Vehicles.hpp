@@ -20,13 +20,11 @@ class CarShops {
         side = "civ";
         conditions = "";
         vehicles[] = {
-            { "B_Quadbike_01_F", "" },
-            { "C_Hatchback_01_F", "" },
-            { "C_Offroad_01_F", "" },
-            { "C_SUV_01_F", "" },
-            { "C_Hatchback_01_sport_F", "" },
-            { "C_Van_01_transport_F", "" },
-            { "C_Offroad_02_unarmed_F", "" } //Apex DLC
+            { "JMSLLTE_B_veh_74z_imp_ST_F", "" },
+            { "JMSLLTE_B_veh_g17_reb_F", "" },
+            { "JMSLLTE_B_veh_v35_reb_F", "" },
+            { "JMSLLTE_B_veh_v35c_reb_F", "" },
+            { "JMSLLTE_B_veh_x34_reb_F", "" } //Apex DLC
         };
     };
 
@@ -63,10 +61,9 @@ class CarShops {
         side = "civ";
         conditions = "";
         vehicles[] = {
-            { "C_Heli_Light_01_civil_F", "" },
-            { "B_Heli_Light_01_F", "" },
-            { "O_Heli_Light_02_unarmed_F", "" },
-            { "C_Plane_Civil_01_F", "" } //Apex DLC
+            { "JMSLLTE_UwingHeli_Reb_F", "" },
+            { "JMSLLTE_N1fighter_naboo_F", "" },
+            { "lsd_heli_laati_ab", "" }
         };
     };
 
@@ -370,6 +367,27 @@ class LifeCfgVehicles {
         textures[] = {};
     };
 
+    class JMSLLTE_UwingHeli_Reb_F {
+        vItemSpace = 175;
+        conditions = "";
+        price = 85000;
+        textures[] = {};
+    };
+
+    class JMSLLTE_N1fighter_naboo_F {
+        vItemSpace = 35;
+        conditions = "";
+        price = 85000;
+        textures[] = {};
+    };
+
+    class lsd_heli_laati_ab {
+        vItemSpace = 165;
+        conditions = "";
+        price = 65000;
+        textures[] = {};
+    };
+
     class I_Truck_02_medical_F {
         vItemSpace = 150;
         conditions = "";
@@ -391,10 +409,45 @@ class LifeCfgVehicles {
         textures[] = {};
     };
 
+    class JMSLLTE_B_veh_74z_imp_ST_F {
+        vItemSpace = 25;
+        conditions = "";
+        price = 8000;
+        textures[] = {};
+    };
+
     class JMSLLTE_B_veh_AA5_reb_F {
         vItemSpace = 150;
         conditions = "";
         price = 45000;
+        textures[] = {};
+    };
+
+    class JMSLLTE_B_veh_g17_reb_F {
+        vItemSpace = 75;
+        conditions = "";
+        price = 25000;
+        textures[] = {};
+    };
+
+    class JMSLLTE_B_veh_v35_reb_F {
+        vItemSpace = 100;
+        conditions = "";
+        price = 35000;
+        textures[] = {};
+    };
+
+    class JMSLLTE_B_veh_v35c_reb_F {
+        vItemSpace = 125;
+        conditions = "";
+        price = 40000;
+        textures[] = {};
+    };
+
+     class JMSLLTE_B_veh_x34_reb_F {
+        vItemSpace = 70;
+        conditions = "";
+        price = 22000;
         textures[] = {};
     };
 
