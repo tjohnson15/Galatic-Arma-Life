@@ -113,9 +113,9 @@ if (life_HC_isActive) then {
 };
 
 [] call life_fnc_hudUpdate;
+[] spawn theprogrammer_core_fnc_clientInit;
 
 diag_log "----------------------------------------------------------------------------------------------------";
 diag_log format ["               End of Altis Life Client Init :: Total Execution Time %1 seconds ",(diag_tickTime - _timeStamp)];
 diag_log "----------------------------------------------------------------------------------------------------";
 
-[] spawn theprogrammer_core_fnc_clientInit;
