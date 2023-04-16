@@ -48,6 +48,14 @@ class Licenses {
         side = "civ";
     };
 
+    class mining {
+        variable = "mining";
+        displayName = $STR_License_Mining;
+        price = 5000;
+        illegal = false;
+        side = "civ";
+    };
+
     class dive {
         variable = "dive";
         displayName = $STR_License_Diving;
