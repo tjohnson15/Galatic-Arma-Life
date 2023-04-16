@@ -80,6 +80,18 @@ class WeaponShops {
         accs[] = {};
     };
 
+    class miningguild {
+        name = "Tatooine Mining Guild";
+        side = "civ";
+        conditions = "license_civ_mining";
+        items[] = {
+            { "axe", "", 350, 125, "" },
+            { "pickaxe", "", 250, 100, "" }
+        };
+        mags[] = {};
+        accs[] = {};
+    };
+
     class f_station_store {
         name = "Tatooine Fuel Station Store";
         side = "civ";
