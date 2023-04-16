@@ -178,6 +178,7 @@ class CfgRemoteExec {
         F(addMagazine,ANYONE)
         F(addPrimaryWeaponItem,ANYONE)
         F(addWeapon,ANYONE)
+        F(hideObjectGlobal,ANYONE)
         F(setFuel,ANYONE)
     };
 };
