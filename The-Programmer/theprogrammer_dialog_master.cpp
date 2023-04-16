@@ -1,0 +1,1 @@
+#include "Mining\dialogs.cpp"

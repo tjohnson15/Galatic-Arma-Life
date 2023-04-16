@@ -267,6 +267,9 @@
             <Polish>Skup materiałów przemysłowych</Polish>
             <Chinesesimp>铁/铜贸易</Chinesesimp>
         </Key>
+         <Key ID="STR_Shops_Mineralst">
+            <Original>Mining Guild Mineral Trader</Original>
+        </Key>
         <Key ID="STR_Shops_Cop">
             <Original>APD Item Shop</Original>
             <Czech>APD Item Shop</Czech>
@@ -7575,15 +7578,18 @@
         </Key>
         <Key ID="STR_Item_IronIngot">
             <Original>Iron Ingot</Original>
-            <Czech>Železná cihla</Czech>
-            <Spanish>Lingote de Hierro</Spanish>
-            <Russian></Russian>
-            <German>Eisenbarren</German>
-            <French>Lingot de Fer</French>
-            <Italian>Lingotto di ferro</Italian>
-            <Portuguese>Barra de Ferro</Portuguese>
-            <Polish>Sztabka żelaza</Polish>
-            <Chinesesimp>铁锭</Chinesesimp>
+        </Key>
+        <Key ID="STR_Item_CoalIngot">
+            <Original>Coal Lump</Original>
+        </Key>
+        <Key ID="STR_Item_rubyIngot">
+            <Original>Ruby</Original>
+        </Key>
+        <Key ID="STR_Item_SapphireIngot">
+            <Original>Sapphire</Original>
+        </Key>
+        <Key ID="STR_Item_obsidanIngot">
+            <Original>Obsidan</Original>
         </Key>
         <Key ID="STR_Item_CopperIngot">
             <Original>Copper Ingot</Original>
@@ -7865,6 +7871,9 @@
         </Key>
         <Key ID="STR_License_Pilot5">
             <Original>Level 5 Pilot License</Original>
+        </Key>
+        <Key ID="STR_License_Mining">
+            <Original>Mining Guild License</Original>
         </Key>
         <Key ID="STR_License_Heroin">
             <Original>Heroin Training</Original>
@@ -10837,15 +10846,9 @@
         </Key>
         <Key ID="STR_MAR_General_Store">
             <Original>General Store</Original>
-            <Czech>Obchod se smíšeným zbožím</Czech>
-            <French>Magasin général</French>
-            <Spanish>Tienda General</Spanish>
-            <Italian>Strumenti Generali</Italian>
-            <Russian></Russian>
-            <German>Supermarkt</German>
-            <Portuguese>Loja de Equipamentos</Portuguese>
-            <Polish>Sklep techniczny</Polish>
-            <Chinesesimp>物品商店</Chinesesimp>
+        </Key>
+        <Key ID="STR_MAR_Mining_Store">
+            <Original>Mining Guild Store</Original>
         </Key>
         <Key ID="STR_MAR_Civilian_Shops">
             <Original>Civilian Shops</Original>
