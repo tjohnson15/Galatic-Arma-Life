@@ -93,6 +93,13 @@ class VirtualShops {
         items[] = { "iron_refined", "copper_refined" };
     };
 
+     class miningt  {
+        name = $STR_Shops_Mineralst;
+        side = "civ";
+        conditions = "";
+        items[] = { "iron_refined", "copper_refined", "sapphire_refined", "ruby_refined", "coal_refined", "obsidan_refined", "goldbar", "diamondCut", "diamond_uncut" };
+    };
+
     class diamond {
         name = $STR_Shops_Diamond;
         side = "civ";
@@ -373,6 +380,54 @@ class VirtualItems {
         edible = -1;
         drinkable = -1;
         icon = "icons\ico_iron.paa";
+    };
+
+    class sapphire_refined {
+        variable = "sapphireRefined";
+        displayName = $STR_Item_SapphireIngot;
+        weight = 3;
+        buyPrice = -1;
+        sellPrice = 3200;
+        illegal = false;
+        edible = -1;
+        drinkable = -1;
+        icon = "icons\ico_sapphire.paa";
+    };
+
+    class ruby_refined {
+        variable = "rubyRefined";
+        displayName = $STR_Item_rubyIngot;
+        weight = 3;
+        buyPrice = -1;
+        sellPrice = 3200;
+        illegal = false;
+        edible = -1;
+        drinkable = -1;
+        icon = "icons\ico_ruby.paa";
+    };
+
+    class coal_refined {
+        variable = "coalRefined";
+        displayName = $STR_Item_CoalIngot;
+        weight = 3;
+        buyPrice = -1;
+        sellPrice = 3200;
+        illegal = false;
+        edible = -1;
+        drinkable = -1;
+        icon = "icons\ico_coal.paa";
+    };
+
+    class obsidan_refined {
+        variable = "obsidanRefined";
+        displayName = $STR_Item_obsidanIngot;
+        weight = 3;
+        buyPrice = -1;
+        sellPrice = 3200;
+        illegal = false;
+        edible = -1;
+        drinkable = -1;
+        icon = "icons\ico_obsidan.paa";
     };
 
     class salt_unrefined {
