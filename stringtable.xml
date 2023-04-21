@@ -344,16 +344,7 @@
         </Key>
 
         <Key ID="STR_Shop_W_gun">
-            <Original>Billy Joe's Firearms</Original>
-            <Czech>Billy Joe střelné zbraně</Czech>
-            <French>Armes à feu Billy Joe</French>
-            <Spanish></Spanish>
-            <Italian>Armi da fuoco di Billy Joe</Italian>
-            <Russian>Огнестрельное оружие Билли Джо</Russian>
-            <German>Billy Joes Schusswaffen</German>
-            <Portuguese>Armas de Fogo de Billy Joe</Portuguese>
-            <Polish>Billy Joe broni palnej</Polish>
-            <Chinesesimp>比利·乔的枪械</Chinesesimp>
+            <Original>Binary's Blasters</Original>
         </Key>
         <Key ID="STR_Shop_W_rebel">
             <Original>Mohammed's Jihadi Shop</Original>
@@ -7924,16 +7915,7 @@
             <Chinesesimp>海员证</Chinesesimp>
         </Key>
         <Key ID="STR_License_Firearm">
-            <Original>Firearm License</Original>
-            <Czech>zbrojní průkaz</Czech>
-            <Spanish>Licencia de Armas</Spanish>
-            <Russian></Russian>
-            <German>Waffenschein</German>
-            <French>Permis de Port d'Arme</French>
-            <Italian>Porto d'Armi</Italian>
-            <Portuguese>Licença de Porte de Armas</Portuguese>
-            <Polish>Pozwolenie na broń</Polish>
-            <Chinesesimp>持枪证</Chinesesimp>
+            <Original>Grade 1 Blaster Permit</Original>
         </Key>
         <Key ID="STR_License_CG">
             <Original>Coast Guard License</Original>

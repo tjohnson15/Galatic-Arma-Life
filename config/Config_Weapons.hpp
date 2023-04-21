@@ -22,12 +22,22 @@
 class WeaponShops {
     //Armory Shops
     class gun {
-        name = "Billy Joe's Firearms";
+        name = "Bianary's Blasters";
         side = "civ";
         conditions = "license_civ_gun";
-        items[] = {
+         items[] = {
+            { "JLTS_RG4D", "", 1200, 600, "" },
+            { "JMSLLTE_rk3pistol", "", 1300, 600, "" },
+            { "JMSLLTE_se14pistol", "", 1400, 600, "" },
+            { "JMSLLTE_dt12pistol", "", 1500, 600, "" },
+            { "DymekBlasterPistol_F", "", 1600, 600, "" }
         };
         mags[] = {
+            { "JLTS_RG4D_mag", "", 30, 60, "" },
+            { "JMSLLTE_RK3_20rnd_Mag", "", 35, 70, "" },
+            { "JMSLLTE_SE14_30rnd_Mag", "", 40, 80, "" },
+            { "JMSLLTE_DT12_50rnd_Mag", "", 100, 200, "" },
+            { "3AS_16Rnd_EY20_Mag", "", 10, 20, "" }
         };
         accs[] = {
         };
