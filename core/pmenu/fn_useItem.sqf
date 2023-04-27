@@ -106,3 +106,5 @@ switch (_item) do {
 
 [] call life_fnc_p_updateMenu;
 [] call life_fnc_hudUpdate;
+private _item = CONTROL_DATA(2005);
+#include "....\The-Programmer\Plants\scripts\useItemSelect.sqf"
