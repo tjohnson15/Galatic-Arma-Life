@@ -10966,15 +10966,12 @@
         </Key>
         <Key ID="STR_MAR_Market">
             <Original>Market</Original>
-            <Czech>Trh</Czech>
-            <French>Marché</French>
-            <Spanish>Mercado</Spanish>
-            <Italian>Mercato</Italian>
-            <Russian></Russian>
-            <German>Markt</German>
-            <Portuguese>Mercado</Portuguese>
-            <Polish>Market spożywczy</Polish>
-            <Chinesesimp>市场</Chinesesimp>
+        </Key>
+        <Key ID="STR_MAR_SMarket">
+            <Original>Seed Market</Original>
+        </Key>
+        <Key ID="STR_MAR_SIMarket">
+            <Original>Seed Illegal Market</Original>
         </Key>
         <Key ID="STR_MAR_Air_Service">
             <Original>Air Service Station</Original>
