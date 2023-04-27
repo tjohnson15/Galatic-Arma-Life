@@ -16,11 +16,18 @@ class VirtualShops {
         items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "pickaxe", "toolkit", "fuelFull", "peach", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
     };
 
-     class smarket {
-        name = $STR_Shops_Market;
+    class smarket {
+        name = $STR_MAR_SMarket;
         side = "civ";
         conditions = "";
-        items[] = { "seed_tobacco", "seed_tomato", "seed_lettuce", "seed_cotton", "seed_strawberry", "seed_wheat", "seed_chili_pepper", "seed_artichoke", "seed_corn", "storagesmall", "storagebig" };
+        items[] = { "seed_tobacco", "seed_tomato", "seed_lettuce", "seed_cotton", "seed_strawberry", "seed_wheat", "seed_chili_pepper", "seed_artichoke", "seed_corn", "desherbant", "arrosoir", "storagesmall", "storagebig" };
+    };
+
+    class simarket {
+            name = $STR_MAR_SIMarket;
+            side = "civ";
+            conditions = "";
+            items[] = { "seed_cocaine", "seed_cannabis", "storagesmall", "storagebig" };
     };
 
     class med_market {
