@@ -18,7 +18,7 @@
 #define true 1
 
 class Max_Settings_Plants {
-    default_lang = "fr"; // fr / en / de / es
+    default_lang = "en"; // fr / en / de / es
 
     check_all_plants_loop_every_x_seconds = 45;
     save_plants_between_reboot = true;

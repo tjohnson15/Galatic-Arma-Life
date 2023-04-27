@@ -112,16 +112,7 @@
             <Chinesesimp>服装商店</Chinesesimp>
         </Key>
         <Key ID="STR_Shops_W_Gun">
-            <Original>Billy Joe's Firearms</Original>
-            <Czech>Billy Joe Střelné zbraně</Czech>
-            <Spanish>Tienda de Armas de Billy Joe</Spanish>
-            <Russian></Russian>
-            <German>Billy Joe's Schusswaffen</German>
-            <Italian>Armeria di Billy Joe</Italian>
-            <French>Armurerie de Billy Joe</French>
-            <Portuguese>Loja de Armas do Billy Joe</Portuguese>
-            <Polish>Broń palna Billy Joe</Polish>
-            <Chinesesimp>武器商店</Chinesesimp>
+             <Original>Binary's Blaster's</Original>
         </Key>
         <Key ID="STR_Shops_C_Kart">
             <Original>Bobby's Kart-Racing Outfits</Original>
@@ -11226,16 +11217,7 @@
             <Chinesesimp>玻璃制造厂</Chinesesimp>
         </Key>
         <Key ID="STR_MAR_Gun_Store">
-            <Original>Gun Store</Original>
-            <Czech>Gun Store</Czech>
-            <French>Armurerie</French>
-            <Spanish>Tienda de Armas</Spanish>
-            <Russian></Russian>
-            <German>Waffengeschäft</German>
-            <Portuguese>Loja de Armas</Portuguese>
-            <Polish>Sklep z bronią</Polish>
-            <Italian>Armeria</Italian>
-            <Chinesesimp>武器商店</Chinesesimp>
+            <Original>Binary's Blaster Store</Original>
         </Key>
         <Key ID="STR_MAR_Heroin_Field">
             <Original>Opium Poppy Field</Original>

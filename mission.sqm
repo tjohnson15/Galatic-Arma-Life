@@ -8,7 +8,7 @@ class EditorData
 	toggles=129;
 	class ItemIDProvider
 	{
-		nextID=10269;
+		nextID=10273;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=214;
+		nextID=226;
 	};
 	class Camera
 	{
-		pos[]={13287.318,123.96366,10414.898};
-		dir[]={0.75732231,-0.28822482,0.58615702};
-		up[]={0.22798432,0.95753938,0.17645128};
-		aside[]={0.61214167,-5.0978269e-007,-0.79089254};
+		pos[]={13656.08,215.46634,13017.042};
+		dir[]={-0.88141829,-0.41800734,-0.22044216};
+		up[]={-0.40551189,0.90842938,-0.10141903};
+		aside[]={-0.2426537,2.9243529e-007,0.9702332};
 	};
 };
 binarizationWanted=0;
@@ -444,7 +444,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=237;
+		items=240;
 		class Item0
 		{
 			dataType="Marker";
@@ -14268,7 +14268,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={13288.711,121.8606,10416.532};
-				angles[]={-0,0.79290104,0};
+				angles[]={0,0.79290104,0};
 			};
 			side="Empty";
 			flags=4;
@@ -14383,6 +14383,129 @@ class Mission
 			};
 			id=10267;
 			atlOffset=0.00039672852;
+		};
+		class Item237
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={13654.2,213.57568,13016.339};
+				angles[]={-0,4.4752769,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="this enableSimulation false; this allowDamage false;";
+			};
+			id=10269;
+			type="Land_CashDesk_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item238
+		{
+			dataType="Marker";
+			position[]={13653.405,213.576,13016.089};
+			name="Gen_3_3";
+			text="@STR_MAR_SIMarket";
+			type="c_unknown";
+			colorName="ColorGreen";
+			id=10270;
+			atlOffset=0.00032043457;
+		};
+		class Item239
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13653.408,213.57742,13016.253};
+						angles[]={0,1.2401088,0};
+					};
+					side="Civilian";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_SIMarket"",life_fnc_virt_menu,""simarket"",1.5,true,true,"""",""true"",5];";
+						disableSimulation=1;
+					};
+					id=10272;
+					type="C_man_1";
+					atlOffset=0.00030517578;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male05GRE";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=3;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=10271;
+			atlOffset=0.00030517578;
 		};
 	};
 };
