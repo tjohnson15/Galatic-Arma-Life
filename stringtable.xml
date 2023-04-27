@@ -7989,6 +7989,78 @@
             <Polish>Wytapianie żelaza</Polish>
             <Chinesesimp>铁矿加工</Chinesesimp>
         </Key>
+        <Key ID="STR_Item_arrosoir">
+            <Original>Watering Can</Original>
+        </Key>
+        <Key ID="STR_Item_desherbant">
+            <Original>Weed Killer</Original>
+        </Key>
+        <Key ID="seed_cocaine">
+            <Original>Cocaine seed</Original>
+        </Key>
+        <Key ID="seed_cannabis">
+            <Original>Cannabis seed</Original>
+        </Key>
+        <Key ID="seed_corn">
+            <Original>Corn seed</Original>
+        </Key>
+        <Key ID="seed_artichoke">
+            <Original>Artichoke seed</Original>
+        </Key>
+        <Key ID="seed_chili_pepper">
+            <Original>Chili Pepper seed</Original>
+        </Key>
+        <Key ID="seed_wheat">
+            <Original>Wheat seed</Original>
+        </Key>
+        <Key ID="seed_strawberry">
+            <Original>Strawberry seed</Original>
+        </Key>
+        <Key ID="seed_cotton">
+            <Original>Cotton seed</Original>
+        </Key>
+        <Key ID="seed_lettuce">
+            <Original>Lettuce seed</Original>
+        </Key>
+        <Key ID="seed_tomato">
+            <Original>Tomato seed</Original>
+        </Key>
+        <Key ID="seed_tobacco">
+            <Original>Tobacoo seed</Original>
+        </Key>
+        <Key ID="seed_sunflower">
+            <Original>Sunflower seed</Original>
+        </Key>
+        <Key ID="corn">
+            <Original>Corn</Original>
+        </Key>
+        <Key ID="artichoke">
+            <Original>Artichoke</Original>
+        </Key>
+        <Key ID="chili_pepper">
+            <Original>Chili Pepper</Original>
+        </Key>
+        <Key ID="wheat">
+            <Original>Wheat</Original>
+        </Key>
+        <Key ID="strawberry">
+            <Original>Strawberry</Original>
+        </Key>
+        <Key ID="cotton">
+            <Original>Cotton</Original>
+        </Key>
+        <Key ID="lettuce">
+            <Original>Lettuce</Original>
+        </Key>
+        <Key ID="tomato">
+            <Original>Tomato</Original>
+        </Key>
+        <Key ID="tobacco">
+            <Original>Tobacco</Original>
+        </Key>
+        <Key ID="sunflower">
+            <Original>Sunflower</Original>
+        </Key>
         <Key ID="STR_License_Sand">
             <Original>Sand Processing</Original>
             <Czech>Zpracování písek</Czech>

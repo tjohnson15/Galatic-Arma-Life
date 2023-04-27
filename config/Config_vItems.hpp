@@ -975,4 +975,268 @@ class VirtualItems {
         drinkable = -1;
         icon = "icons\ico_muttonLeg.paa";
     };
+
+    class arrosoir {
+    variable = "arrosoir";
+    displayName = "STR_Item_arrosoir";
+    weight = 2;
+    buyPrice = 20;
+    sellPrice = -1;
+    illegal = false;
+    edible = -1;
+    icon = "";
+    };
+
+    class desherbant {
+        variable = "desherbant";
+        displayName = "STR_Item_desherbant";
+        weight = 2;
+        buyPrice = 150;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+
+    class seed_cocaine {
+        variable = "seed_cocaine";
+        displayName = "seed_cocaine";
+        weight = 1;
+        buyPrice = 15;
+        sellPrice = -1;
+        illegal = true;
+        edible = -1;
+        icon = "";
+    };
+
+    class seed_cannabis {
+        variable = "seed_cannabis";
+        displayName = "seed_cannabis";
+        weight = 1;
+        buyPrice = 15;
+        sellPrice = -1;
+        illegal = true;
+        edible = -1;
+        icon = "";
+    };
+
+    class seed_corn {
+        variable = "seed_corn";
+        displayName = "seed_corn";
+        weight = 1;
+        buyPrice = 15;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+
+    class seed_artichoke {
+        variable = "seed_artichoke";
+        displayName = "seed_artichoke";
+        weight = 1;
+        buyPrice = 15;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+
+    class seed_chili_pepper {
+        variable = "seed_chili_pepper";
+        displayName = "seed_chili_pepper";
+        weight = 1;
+        buyPrice = 15;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+
+    class seed_wheat {
+        variable = "seed_wheat";
+        displayName = "seed_wheat";
+        weight = 1;
+        buyPrice = 15;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+
+    class seed_strawberry {
+        variable = "seed_strawberry";
+        displayName = "seed_strawberry";
+        weight = 1;
+        buyPrice = 15;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+
+    class seed_cotton {
+        variable = "seed_cotton";
+        displayName = "seed_cotton";
+        weight = 1;
+        buyPrice = 15;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+
+    class seed_lettuce {
+        variable = "seed_lettuce";
+        displayName = "seed_lettuce";
+        weight = 1;
+        buyPrice = 15;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+
+    class seed_tomato {
+        variable = "seed_tomato";
+        displayName = "seed_tomato";
+        weight = 1;
+        buyPrice = 15;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+
+    class seed_tobacco {
+        variable = "seed_tobacco";
+        displayName = "seed_tobacco";
+        weight = 1;
+        buyPrice = 15;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+
+    class seed_sunflower {
+        variable = "seed_sunflower";
+        displayName = "seed_sunflower";
+        weight = 1;
+        buyPrice = 15;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+
+    class corn {
+        variable = "corn";
+        displayName = "corn";
+        weight = 1;
+        buyPrice = -1;
+        sellPrice = 250;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+
+    class artichoke {
+        variable = "artichoke";
+        displayName = "artichoke";
+        weight = 1;
+        buyPrice = -1;
+        sellPrice = 250;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+
+    class chili_pepper {
+        variable = "chili_pepper";
+        displayName = "chili_pepper";
+        weight = 1;
+        buyPrice = -1;
+        sellPrice = 250;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+
+    class wheat {
+        variable = "wheat";
+        displayName = "wheat";
+        weight = 1;
+        buyPrice = -1;
+        sellPrice = 250;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+
+    class strawberry {
+        variable = "strawberry";
+        displayName = "strawberry";
+        weight = 1;
+        buyPrice = -1;
+        sellPrice = 250;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+
+    class cotton {
+        variable = "cotton";
+        displayName = "cotton";
+        weight = 1;
+        buyPrice = -1;
+        sellPrice = 250;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+
+    class lettuce {
+        variable = "lettuce";
+        displayName = "lettuce";
+        weight = 1;
+        buyPrice = -1;
+        sellPrice = 250;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+
+    class tomato {
+        variable = "tomato";
+        displayName = "tomato";
+        weight = 1;
+        buyPrice = -1;
+        sellPrice = 250;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+
+    class tobacco {
+        variable = "tobacco";
+        displayName = "tobacco";
+        weight = 1;
+        buyPrice = -1;
+        sellPrice = 250;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
+
+    class sunflower {
+        variable = "sunflower";
+        displayName = "sunflower";
+        weight = 1;
+        buyPrice = -1;
+        sellPrice = 250;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
 };
