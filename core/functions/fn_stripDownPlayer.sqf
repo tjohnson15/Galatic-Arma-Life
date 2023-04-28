@@ -4,14 +4,8 @@
 
     Description: Strip the player down
 */
-
 removeAllWeapons player;
-
-{
-    player removeMagazine _x;
-    true
-} count (magazines player);
-
+{player removeMagazine _x;} forEach (magazines player);
 removeUniform player;
 removeVest player;
 removeBackpack player;
@@ -21,9 +15,8 @@ removeHeadGear player;
 {
     player unassignItem _x;
     player removeItem _x;
-    true
-} count (assignedItems player);
+} forEach (assignedItems player);
 
-if !(hmd player isEqualTo "") then {
+if (hmd player != "") then {
     player unlinkItem (hmd player);
 };

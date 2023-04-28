@@ -16,9 +16,6 @@ class CfgRemoteExec {
         mode = 1;
         jip = 0;
 
-        #include "The-Programmer\theprogrammer_remoteExec_master.cpp"
-
-
         /* Client only functions */
         F(life_fnc_AAN,CLIENT)
         F(life_fnc_addVehicle2Chain,CLIENT)
@@ -71,12 +68,12 @@ class CfgRemoteExec {
         F(SOCK_fnc_insertPlayerInfo,CLIENT)
         F(SOCK_fnc_requestReceived,CLIENT)
         F(SOCK_fnc_updateRequest,CLIENT)
-        F(life_fnc_clientGangKick,CLIENT)
-        JIP(life_fnc_clientGangLeader,CLIENT)
-        F(life_fnc_clientGangLeft,CLIENT)
-        F(life_fnc_clientGetKey,CLIENT)
-        F(life_fnc_clientMessage,CLIENT)
-        F(life_util_fnc_playerQuery,CLIENT)
+        F(TON_fnc_clientGangKick,CLIENT)
+        F(TON_fnc_clientGangLeader,CLIENT)
+        F(TON_fnc_clientGangLeft,CLIENT)
+        F(TON_fnc_clientGetKey,CLIENT)
+        F(TON_fnc_clientMessage,CLIENT)
+        F(TON_fnc_player_query,CLIENT)
 
         /* Server only functions */
         F(DB_fnc_insertRequest,SERVER)
@@ -173,6 +170,9 @@ class CfgRemoteExec {
     class Commands {
         mode = 1;
         jip = 0;
+
+        #include "The-Programmer\theprogrammer_remoteExec_master.cpp"
+
 
         F(addHandgunItem,ANYONE)
         F(addMagazine,ANYONE)

@@ -6,10 +6,8 @@
     Description:
     Used for stripping certain licenses off of civilians as punishment.
 */
-
-params [
-    ["_state", 1, [0]]
-];
+private "_state";
+_state = param [0,1,[0]];
 
 switch (_state) do {
     //Death while being wanted
@@ -30,11 +28,7 @@ switch (_state) do {
 
     //Remove motor vehicle licenses
     case 2: {
-        if (missionNamespace getVariable LICENSE_VARNAME("driver","civ") || 
-            {missionNamespace getVariable LICENSE_VARNAME("pilot","civ")} ||
-            {missionNamespace getVariable LICENSE_VARNAME("trucking","civ")} ||
-            {missionNamespace getVariable LICENSE_VARNAME("boat","civ")}
-        ) then {
+        if (missionNamespace getVariable LICENSE_VARNAME("driver","civ") || missionNamespace getVariable LICENSE_VARNAME("pilot","civ") || missionNamespace getVariable LICENSE_VARNAME("trucking","civ") || missionNamespace getVariable LICENSE_VARNAME("boat","civ")) then {
             missionNamespace setVariable [LICENSE_VARNAME("pilot","civ"),false];
             missionNamespace setVariable [LICENSE_VARNAME("driver","civ"),false];
             missionNamespace setVariable [LICENSE_VARNAME("trucking","civ"),false];

@@ -1,41 +1,28 @@
 #include "..\..\script_macros.hpp"
-/*
-    File: fn_mine.sqf
-    Author: Devilfloh
-    Editor: Dardo
+    /*
+        File: fn_mine.sqf
+        Author: Devilfloh
+        Editor: Dardo
 
-    Description:
-    Same as fn_gather,but it allows use of probabilities for mining.
-*/
-
-scopeName "main";
-
+        Description:
+        Same as fn_gather,but it allows use of probabilities for mining.
+    */
+private ["_maxGather", "_resource", "_amount", "_requiredItem", "_mined"];
 if (life_action_inUse) exitWith {};
 if !(isNull objectParent player) exitWith {};
 if (player getVariable "restrained") exitWith {
     hint localize "STR_NOTF_isrestrained";
 };
-
+_exit = false;
 if (player getVariable "playerSurrender") exitWith {
     hint localize "STR_NOTF_surrender";
 };
-
 life_action_inUse = true;
-
-private _zone = "";
-private _requiredItem = "";
+_zone = "";
+_requiredItem = "";
 
 _resourceCfg = missionConfigFile >> "CfgGather" >> "Minerals";
 _percent = (floor random 100) + 1; //Make sure it's not 0
-
-private "_curConfig";
-private "_resource";
-private "_resources";
-private "_maxGather";
-private "_zoneSize";
-private "_resourceZones";
-private "_mined";
-
 
 for "_i" from 0 to count(_resourceCfg)-1 do {
     _curConfig = _resourceCfg select _i;
@@ -86,12 +73,16 @@ if (_requiredItem != "") then {
             };
         };
         life_action_inUse = false;
-        breakOut "main";
+        _exit = true;
   };
 };
 
-private _amount = round(random(_maxGather)) + 1;
-private _diff = [_mined, _amount, life_carryWeight, life_maxWeight] call life_fnc_calWeightDiff;
+if (_exit) exitWith {
+    life_action_inUse = false;
+};
+
+_amount = round(random(_maxGather)) + 1;
+_diff = [_mined, _amount, life_carryWeight, life_maxWeight] call life_fnc_calWeightDiff;
 if (_diff isEqualTo 0) exitWith {
     hint localize "STR_NOTF_InvFull";
     life_action_inUse = false;
@@ -109,7 +100,7 @@ for "_i" from 0 to 4 do {
 
 if (([true, _mined, _diff] call life_fnc_handleInv)) then {
     _itemName = M_CONFIG(getText, "VirtualItems", _mined, "displayName");
-    titleText[format [localize "STR_NOTF_Mine_Success", _itemName, _diff], "PLAIN"];
+    titleText[format [localize "STR_NOTF_Mine_Success", (localize _itemName), _diff], "PLAIN"];
 };
 
 sleep 2.5;

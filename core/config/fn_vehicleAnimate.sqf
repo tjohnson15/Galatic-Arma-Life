@@ -5,25 +5,27 @@
     Description:
     Pass what you want to be animated.
 */
+private ["_vehicle","_animate","_state"];
+_vehicle = [_this,0,objNull,[objNull]] call BIS_fnc_param;
+if (isNull _vehicle) exitWith {}; //FUCK
+_animate = [_this,1,"",["",[]]] call BIS_fnc_param;
+_preset = [_this,2,false,[false]] call BIS_fnc_param;
 
-params [
-    ["_vehicle", objNull, [objNull]],
-    ["_animate", "", ["", []]],
-    ["_preset", false, [true]]
-];
-
-if (isNull _vehicle) exitWith {};
-
-if (!_preset) then {
+if (!_preset) then
+{
     if (count _animate > 1) then
     {
         {
             _vehicle animate[_x select 0,_x select 1];
-        } count _animate;
-    } else {
+        } forEach _animate;
+    }
+        else
+    {
         _vehicle animate[_animate select 0,_animate select 1];
     };
-} else {
+}
+    else
+{
     switch (_animate) do
     {
         case "civ_littlebird":

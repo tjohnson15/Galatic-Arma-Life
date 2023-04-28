@@ -17,7 +17,7 @@ if (life_spawn_point isEqualTo []) then {
         if (isNil {(call compile format ["%1",_sp select 0])}) then {
             player setPos (getMarkerPos (_sp select 0));
         } else {
-            _spawnPos = selectRandom (call compile format ["%1",_sp select 0]);
+            _spawnPos = (call compile format ["%1",_sp select 0]) call BIS_fnc_selectRandom;
             _spawnPos = _spawnPos buildingPos 0;
             player setPos _spawnPos;
         };
@@ -39,13 +39,13 @@ if (life_spawn_point isEqualTo []) then {
                 };
 
                 {_bPos = _bPos - [(_house buildingPos _x)];} forEach (_house getVariable ["slots",[]]);
-                _pos = selectRandom _bPos;
+                _pos = _bPos call BIS_fnc_selectRandom;
                 player setPosATL _pos;
             } else {
                 player setPos (getMarkerPos (life_spawn_point select 0));
             };
         } else {
-            _spawnPos = selectRandom (call compile format ["%1", life_spawn_point select 0]);
+            _spawnPos = (call compile format ["%1", life_spawn_point select 0]) call BIS_fnc_selectRandom;
             _spawnPos = _spawnPos buildingPos 0;
             player setPos _spawnPos;
         };
@@ -60,3 +60,4 @@ if (life_firstSpawn) then {
     [] call life_fnc_welcomeNotification;
 };
 [] call life_fnc_playerSkins;
+[] call life_fnc_hudSetup;

@@ -6,19 +6,21 @@
     Description:
     Creates the dialog and handles the data in the Channel 7 News Dialog.
 */
+#define Confirm 100104
 
-if !(dialog) then {
+private ["_msgCost","_display","_confirmBtn","_msgCooldown","_broadcastDelay"];
+
+if (!dialog) then {
     createDialog "life_news_broadcast";
 };
 
 disableSerialization;
-
-private _display = findDisplay 100100;
-private _confirmBtn = _display displayCtrl 100104;
+_display = findDisplay 100100;
+_confirmBtn = _display displayCtrl Confirm;
 _confirmBtn ctrlEnable false;
 
-private _msgCooldown = 60 * LIFE_SETTINGS(getNumber,"news_broadcast_cooldown");
-private _msgCost = LIFE_SETTINGS(getNumber,"news_broadcast_cost");
+_msgCooldown = (60 * LIFE_SETTINGS(getNumber,"news_broadcast_cooldown"));
+_msgCost = LIFE_SETTINGS(getNumber,"news_broadcast_cost");
 
 if (CASH < _msgCost) then {
     hint format [localize "STR_News_NotEnough",[_msgCost] call life_fnc_numberText];
@@ -27,7 +29,6 @@ if (CASH < _msgCost) then {
     _confirmBtn buttonSetAction "[] call life_fnc_postNewsBroadcast; closeDialog 0;";
 };
 
-private "_broadcastDelay";
 if (isNil "life_broadcastTimer" || {(time - life_broadcastTimer) > _msgCooldown}) then {
     _broadcastDelay = localize "STR_News_Now";
 } else {
@@ -35,4 +36,4 @@ if (isNil "life_broadcastTimer" || {(time - life_broadcastTimer) > _msgCooldown}
     _confirmBtn ctrlEnable false;
 };
 
-CONTROL(100100,100103) ctrlSetStructuredText parseText format [localize "STR_News_StructuredText",[_msgCost] call life_fnc_numberText,_broadcastDelay];
+CONTROL(100100,100103) ctrlSetStructuredText parseText format [ localize "STR_News_StructuredText",[_msgCost] call life_fnc_numberText,_broadcastDelay];

@@ -8,13 +8,12 @@
 */
 params [
     ["_cash",0,[0]],
-    ["_victim",objNull,[objNull]]
+    ["_victim",objNull,[objNull]],
+    ["_robber",objNull,[objNull]]
 ];
 
-if (player isEqualTo _victim) exitWith {};
-if (_cash isEqualTo 0) exitWith {
-    titleText[localize "STR_Civ_RobFail","PLAIN"]
-};
+if (_robber == _victim) exitWith {};
+if (_cash isEqualTo 0) exitWith {titleText[localize "STR_Civ_RobFail","PLAIN"]};
 
 CASH = CASH + _cash;
 [0] call SOCK_fnc_updatePartial;

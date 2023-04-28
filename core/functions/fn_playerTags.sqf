@@ -6,6 +6,8 @@
     Description:
     Adds the tags above other players heads when close and have visible range.
 */
+if (!life_settings_tagson) exitWith {};
+private ["_ui","_units","_masks"];
 #define iconID 78000
 #define scale 0.8
 
@@ -13,16 +15,16 @@ if (visibleMap || {!alive player} || {dialog}) exitWith {
     500 cutText["","PLAIN"];
 };
 
-private _ui = uiNamespace getVariable ["Life_HUD_nameTags",displayNull];
+_ui = uiNamespace getVariable ["Life_HUD_nameTags",displayNull];
 if (isNull _ui) then {
     500 cutRsc["Life_HUD_nameTags","PLAIN"];
     _ui = uiNamespace getVariable ["Life_HUD_nameTags",displayNull];
 };
 
-private _units = nearestObjects[(visiblePosition player),["CAManBase","Land_Pallet_MilBoxes_F","Land_Sink_F"],50];
+_units = nearestObjects[(visiblePosition player),["CAManBase","Land_Pallet_MilBoxes_F","Land_Sink_F"],50];
 _units = _units - [player];
 
-private _masks = LIFE_SETTINGS(getArray,"clothing_masks");
+_masks = LIFE_SETTINGS(getArray,"clothing_masks");
 
 private _index = -1;
 {

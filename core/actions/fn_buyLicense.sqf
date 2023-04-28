@@ -6,20 +6,21 @@
     Description:
     Called when purchasing a license. May need to be revised.
 */
-params ["", "", "", "_type"];
+private ["_type","_varName","_displayName","_sideFlag","_price"];
+_type = _this select 3;
 
 if (!isClass (missionConfigFile >> "Licenses" >> _type)) exitWith {}; //Bad entry?
-private _displayName = M_CONFIG(getText,"Licenses",_type,"displayName");
-private _price = M_CONFIG(getNumber,"Licenses",_type,"price");
-private _sideFlag = M_CONFIG(getText,"Licenses",_type,"side");
-private _varName = LICENSE_VARNAME(_type,_sideFlag);
+_displayName = M_CONFIG(getText,"Licenses",_type,"displayName");
+_price = M_CONFIG(getNumber,"Licenses",_type,"price");
+_sideFlag = M_CONFIG(getText,"Licenses",_type,"side");
+_varName = LICENSE_VARNAME(_type,_sideFlag);
 
-if (CASH < _price) exitWith {hint format [localize "STR_NOTF_NE_1",[_price] call life_fnc_numberText, _displayName];};
+if (CASH < _price) exitWith {hint format [localize "STR_NOTF_NE_1",[_price] call life_fnc_numberText,localize _displayName];};
 CASH = CASH - _price;
 
 [0] call SOCK_fnc_updatePartial;
 
-titleText[format [localize "STR_NOTF_B_1", _displayName,[_price] call life_fnc_numberText],"PLAIN"];
+titleText[format [localize "STR_NOTF_B_1", localize _displayName,[_price] call life_fnc_numberText],"PLAIN"];
 missionNamespace setVariable [_varName,true];
 
 [2] call SOCK_fnc_updatePartial;
