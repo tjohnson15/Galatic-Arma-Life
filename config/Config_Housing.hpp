@@ -35,7 +35,7 @@ class Housing {
         class Land_i_House_Big_02_V3_F : Land_i_House_Big_02_V1_F{};
 
         class Land_i_House_Big_01_V1_F {
-            price = 1550000s;
+            price = 2200000;
             numberCrates = 4;
             restrictedPos[] = {2,3};
             canGarage = false;
@@ -86,6 +86,8 @@ class Housing {
             garageBlacklists[] = {};
             lightPos[] = {-3.3,1,2.5};
         };
+
+        class Land_i_House_Small_03_V3_F : Land_i_House_Small_03_V1_F{};
 
         class Land_i_Stone_HouseSmall_V1_F {
             price = 750000;
