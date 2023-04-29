@@ -16,6 +16,9 @@ class CfgRemoteExec {
         mode = 1;
         jip = 0;
 
+        #include "The-Programmer\theprogrammer_remoteExec_master.cpp"
+
+
         /* Client only functions */
         F(life_fnc_AAN,CLIENT)
         F(life_fnc_addVehicle2Chain,CLIENT)
@@ -171,7 +174,6 @@ class CfgRemoteExec {
         mode = 1;
         jip = 0;
 
-        #include "The-Programmer\theprogrammer_remoteExec_master.cpp"
 
 
         F(addHandgunItem,ANYONE)
