@@ -196,22 +196,46 @@ class Clothing {
         side = "med";
         uniforms[] = {
             { "NONE", $STR_C_Remove_uniforms, 0, "" },
-            { "U_Rangemaster", $STR_C_EMS_uniforms, 50, "call life_mediclevel >= 1" }
+            { "JMSLLTE_EmpOfficerCoat_black_F_CombatUniform", "", 50, "call life_mediclevel >= 7" },
+            { "JMSLLTE_DeathTrooper_F_CombatUniform", "", 50, "call life_mediclevel >= 6" },
+            { "JMSLLTE_EmpOfficer_green_F_CombatUniform", "", 50, "call life_mediclevel >= 5" },
+            { "JMSLLTE_ScoutTrooper_mimb_F_CombatUniform", "", 50, "call life_mediclevel >= 4" },
+            { "JMSLLTE_StormTrooper_dirty_F_CombatUniform", "", 50, "call life_mediclevel >= 2" },
+            { "JMSLLTE_EmpTrooperArmor_army_F_CombatUniform", "", 50, "call life_mediclevel >= 1" }
+
         };
         headgear[] = {
             { "NONE", $STR_C_Remove_headgear, 0, "call life_mediclevel >= 1" },
-            { "H_Cap_blu", "", 10, "" }
+            { "JMSLLTE_EmpOfficer_black_helmet", "", 50, "call life_mediclevel >= 7" },
+            { "JMSLLTE_Deathtrooper_helmet", "", 50, "call life_mediclevel >= 6" },
+            { "JMSLLTE_EmpOfficer_helmet", "", 50, "call life_mediclevel >= 5" },
+            { "JMSLLTE_Scouttrooper_mimb_helmet", "", 50, "call life_mediclevel >= 4" },
+            { "JMSLLTE_Stormtrooper_dirty_helmet", "", 50, "call life_mediclevel >= 3" },
+            { "JMSLLTE_Stormtrooper_dirty_H_helmet", "", 50, "call life_mediclevel >= 3" },
+            { "JMSLLTE_EmpTrooper_army_helmet", "", 50, "call life_mediclevel >= 1" }
         };
         goggles[] = {
             { "NONE", $STR_C_Remove_goggles, 0, "call life_mediclevel >= 1" },
-            { "G_Shades_Blue", "", 10, "" }
+            { "G_JMSLLTE_TrooperMask_1_black", "", 50, "call life_mediclevel >= 1" }
         };
         vests[] = {
-            { "NONE", $STR_C_Remove_vests, 0, "call life_mediclevel >= 1" }
+            { "NONE", $STR_C_Remove_vests, 0, "call life_mediclevel >= 1" },
+            { "JMSLLTE_NavyChestHolster_armor", "", 60, "call life_mediclevel >= 5" },
+            { "JMSLLTE_DeathtrooperCom_armor", "", 60, "call life_mediclevel >= 6" },
+            { "JMSLLTE_DeathtrooperHeavy2_armor", "", 60, "call life_mediclevel >= 6" },
+            { "JMSLLTE_DeathtrooperVest_armor", "", 60, "call life_mediclevel >= 6" },
+            { "JMSLLTE_Scouttrooper_holster", "", 60, "call life_mediclevel >= 4" },
+            { "JMSLLTE_StormtrooperPauldron_red_armor", "", 60, "call life_mediclevel >= 3" },
+            { "JMSLLTE_StormtrooperPauldron_black_armor", "", 60, "call life_mediclevel >= 3" },
+            { "JMSLLTE_StormtrooperHidden_armor", "", 60, "call life_mediclevel >= 2" }
         };
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "" },
-            { "B_FieldPack_oli", $STR_C_EMS_backpacks, 3000, "call life_mediclevel >= 1" }
+            { "JMSLLTE_back_stormband_v2", "", 100, "call life_mediclevel >= 1" },
+            { "JMSLLTE_back_rebpack_v1_desert", "", 100, "call life_mediclevel >= 1" },
+            { "JMSLLTE_back_stormpouches_v1", "", 100, "call life_mediclevel >= 1" },
+            { "JMSLLTE_back_sandpack_v1", "", 100, "call life_mediclevel >= 1" },
+            { "JMSLLTE_back_rebsmall_imp_v1", "", 100, "call life_mediclevel >= 1" }
         };
     };
 

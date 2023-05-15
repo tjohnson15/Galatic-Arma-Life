@@ -96,10 +96,16 @@ class CarShops {
         side = "med";
         conditions = "";
         vehicles[] = {
-            { "C_Offroad_01_F", "call life_mediclevel >= 1" },
-            { "I_Truck_02_medical_F", "call life_mediclevel >= 1" },
-            { "O_Truck_03_medical_F", "call life_mediclevel >= 1" },
-            { "B_Truck_01_medical_F", "call life_mediclevel >= 1" }
+            { "JMSLLTE_B_veh_74z_imp_ST_F", "call life_mediclevel >= 1" },
+            { "3as_Jug", "call life_mediclevel >= 2" },
+            { "3AS_ITT", "call life_mediclevel >= 2" },
+            { "JMSLLTE_vehgr_ATST_F", "call life_mediclevel >= 2" },
+            { "JMSLLTE_vehgr_ATST_F", "call life_mediclevel >= 2" },
+            { "3as_saber_m1G", "call life_mediclevel >= 2" },
+            { "3as_saber_super", "call life_mediclevel >= 2" },
+            { "3as_saber_m1Recon", "call life_mediclevel >= 2" },
+            { "3as_saber_m1", "call life_mediclevel >= 2" },
+            { "3AS_ITT_Medical", "call life_mediclevel >= 2" }
         };
     };
 
@@ -107,8 +113,15 @@ class CarShops {
         side = "med";
         conditions = "";
         vehicles[] = {
-            { "B_Heli_Light_01_F", "call life_mediclevel >= 1" },
-            { "O_Heli_Light_02_unarmed_F", "call life_mediclevel >= 1" }
+            { "3AS_Patrol_LAAT_Police", "call life_mediclevel >= 2" },
+            { "JMSLLTE_veh_IDT_inf_empire", "call life_mediclevel >= 2" },
+            { "JMSLLTE_veh_ZetaClass_inf_emp", "call life_mediclevel >= 2" },
+            { "JMSLLTE_TIEag_emp_F", "call life_mediclevel >= 2" },
+            { "JMSLLTE_TIEinterceptor_veh_F", "call life_mediclevel >= 2" },
+            { "JMSLLTE_TIEfighter_veh_F", "call life_mediclevel >= 2" },
+            { "JMSLLTE_TIEbomber_veh_F", "call life_mediclevel >= 2" },
+            { "JMSLLTE_TIEstriker_emp_F", "call life_mediclevel >= 2" },
+            { "JMSLLTE_TIEx1_emp_F", "call life_mediclevel >= 2" }
         };
     };
 
