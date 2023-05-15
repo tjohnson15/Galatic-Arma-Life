@@ -155,14 +155,32 @@ class WeaponShops {
         };
     };
 
-    //Medic Shops
-    class med_basic {
-        name = "store";
+    class imperial_basic {
+        name = "Imperial Armorer";
         side = "med";
         conditions = "";
         items[] = {
+            { "JMSLLTE_a280", "", 300, 600, "call life_mediclevel >= 1" },
+            { "JMSLLTE_dc17pistol", "", 150, 300, "call life_mediclevel >= 1" },
+            { "JLTS_RPS6", "", 500, 1000, "call life_mediclevel >= 1" },
+            { "ItemGPS", "", 50, 100, "" },
+            { "FirstAidKit", "", 75, 150, "" },
+            { "JLTS_CloneNVGRange", "", 50, 100, "call life_mediclevel >= 1" },
+            { "JMSLLTE_dc15a", "", 400, 800, "call life_mediclevel >= 1" },
+            { "JMSLLTE_dc15s", "", 250, 500, "call life_mediclevel >= 1" },
+            { "TFAR_anprc152", "", 20, 40, "call life_mediclevel >= 1" }
         };
-        mags[] = {};
-        accs[] = {};
+        mags[] = {
+            { "JMSLLTE_DC15S_40Rnd_Mag", "", 30, 60, "call life_mediclevel >= 1" },
+            { "JMSLLTE_A280_30rnd_Mag", "", 35, 70, "call life_mediclevel >= 1" },
+            { "JMSLLTE_DC15A_60Rnd_Mag", "", 40, 80, "call life_mediclevel >= 1" },
+            { "JLTS_RPS6_mag", "", 100, 200, "call life_mediclevel >= 1 " },
+            { "JMSLLTE_DC17_20rnd_Mag", "", 10, 20, "call life_mediclevel >= 1" }
+        };
+        accs[] = {
+            { "JMSLLTE_a280_bl_scope", "", 50, 100, "call life_mediclevel >= 1" },
+            { "JMSLLTE_acc_flashlight", "", 25, 50, "call life_mediclevel >= 1" },
+            { "JMSLLTE_DC15a_bl_scope", "", 50, 100, "call life_mediclevel >= 1" }
+        };
     };
 };

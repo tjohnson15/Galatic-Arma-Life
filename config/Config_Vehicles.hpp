@@ -92,23 +92,23 @@ class CarShops {
         };
     };
 
-    class med_shop {
+    class imperial_shop {
         side = "med";
         conditions = "";
         vehicles[] = {
-            { "C_Offroad_01_F", "" },
-            { "I_Truck_02_medical_F", "" },
-            { "O_Truck_03_medical_F", "" },
-            { "B_Truck_01_medical_F", "" }
+            { "C_Offroad_01_F", "call life_mediclevel >= 1" },
+            { "I_Truck_02_medical_F", "call life_mediclevel >= 1" },
+            { "O_Truck_03_medical_F", "call life_mediclevel >= 1" },
+            { "B_Truck_01_medical_F", "call life_mediclevel >= 1" }
         };
     };
 
-    class med_air_hs {
+    class imperial_air_hs {
         side = "med";
         conditions = "";
         vehicles[] = {
-            { "B_Heli_Light_01_F", "" },
-            { "O_Heli_Light_02_unarmed_F", "" }
+            { "B_Heli_Light_01_F", "call life_mediclevel >= 1" },
+            { "O_Heli_Light_02_unarmed_F", "call life_mediclevel >= 1" }
         };
     };
 
