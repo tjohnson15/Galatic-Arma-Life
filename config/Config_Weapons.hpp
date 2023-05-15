@@ -139,7 +139,17 @@ class WeaponShops {
             { "JLTS_CloneNVGRange", "", 50, 100, "call life_coplevel >= 1" },
             { "JMSLLTE_dc15a", "", 400, 800, "call life_coplevel >= 2" },
             { "JMSLLTE_dc15s", "", 250, 500, "call life_coplevel >= 1" },
-            { "TFAR_anprc152", "", 20, 40, "call life_coplevel >=1" }
+            { "TFAR_anprc152", "", 20, 40, "call life_coplevel >=1" },
+            { "ls_mag_classB_thermalDet", "", 500, 1000, "call life_mediclevel >= 2" },
+            { "ls_mag_classC_thermalDet", "", 500, 1000, "call life_mediclevel >= 2" },
+            { "SmokeShellYellow", "", 100, 200, "call life_mediclevel >= 2" },
+            { "SmokeShell", "", 100, 200, "call life_mediclevel >= 2" },
+            { "SmokeShellRed", "", 100, 200, "call life_mediclevel >= 2" },
+            { "SmokeShellPurple", "", 100, 200, "call life_mediclevel >= 2" },
+            { "SmokeShellOrange", "", 100, 200, "call life_mediclevel >= 2" },
+            { "SmokeShellGreen", "", 100, 200, "call life_mediclevel >= 2" },
+            { "SmokeShellBlue", "", 100, 200, "call life_mediclevel >= 2" },
+            { "ls_mag_demo_remoteCharge", "", 500, 1000, "call life_mediclevel >= 3" }
         };
         mags[] = {
             { "JMSLLTE_DC15S_40Rnd_Mag", "", 30, 60, "call life_coplevel >= 1" },
@@ -160,27 +170,48 @@ class WeaponShops {
         side = "med";
         conditions = "";
         items[] = {
-            { "JMSLLTE_a280", "", 300, 600, "call life_mediclevel >= 1" },
-            { "JMSLLTE_dc17pistol", "", 150, 300, "call life_mediclevel >= 1" },
-            { "JLTS_RPS6", "", 500, 1000, "call life_mediclevel >= 1" },
+            { "JMSLLTE_e11d", "", 300, 600, "call life_mediclevel >= 1" },
+            { "JMSLLTE_e11", "", 300, 600, "call life_mediclevel >= 2" },
+            { "JMSLLTE_rk3pistol", "", 150, 300, "call life_mediclevel >= 1" },
+            { "JMSLLTE_se14pistol", "", 150, 300, "call life_mediclevel >= 1" },
+            { "JMSLLTE_DLT19BlasterRifle", "", 500, 1000, "call life_mediclevel >= 3" },
+            { "ls_mag_classB_thermalDet", "", 500, 1000, "call life_mediclevel >= 2" },
+            { "ls_mag_classC_thermalDet", "", 500, 1000, "call life_mediclevel >= 2" },
+            { "SmokeShellYellow", "", 100, 200, "call life_mediclevel >= 2" },
+            { "SmokeShell", "", 100, 200, "call life_mediclevel >= 2" },
+            { "SmokeShellRed", "", 100, 200, "call life_mediclevel >= 2" },
+            { "SmokeShellPurple", "", 100, 200, "call life_mediclevel >= 2" },
+            { "SmokeShellOrange", "", 100, 200, "call life_mediclevel >= 2" },
+            { "SmokeShellGreen", "", 100, 200, "call life_mediclevel >= 2" },
+            { "SmokeShellBlue", "", 100, 200, "call life_mediclevel >= 2" },
+            { "JLTS_explosive_emp_50_mag", "", 500, 1000, "call life_mediclevel >= 5" },
+            { "ls_mag_demo_remoteCharge", "", 500, 1000, "call life_mediclevel >= 3" },
+            { "JMSLLTE_Detonitecharge_imp_Mag", "", 500, 1000, "call life_mediclevel >= 2" },
+            { "JMSLLTE_DLT19xRifle", "", 500, 1000, "call life_mediclevel >= 4" },
+            { "ItemCompass", "", 500, 1000, "call life_mediclevel >= 1" },
             { "ItemGPS", "", 50, 100, "" },
             { "FirstAidKit", "", 75, 150, "" },
-            { "JLTS_CloneNVGRange", "", 50, 100, "call life_mediclevel >= 1" },
-            { "JMSLLTE_dc15a", "", 400, 800, "call life_mediclevel >= 1" },
-            { "JMSLLTE_dc15s", "", 250, 500, "call life_mediclevel >= 1" },
+            { "Chemlight_green", "", 50, 100, "call life_mediclevel >= 1" },
+            { "JLTS_clone_comlink", "", 400, 800, "call life_mediclevel >= 1" },
+            { "Itemwatch", "", 250, 500, "call life_mediclevel >= 1" },
             { "TFAR_anprc152", "", 20, 40, "call life_mediclevel >= 1" }
         };
         mags[] = {
-            { "JMSLLTE_DC15S_40Rnd_Mag", "", 30, 60, "call life_mediclevel >= 1" },
-            { "JMSLLTE_A280_30rnd_Mag", "", 35, 70, "call life_mediclevel >= 1" },
+            { "JMSLLTE_RK3_20rnd_Mag", "", 30, 60, "call life_mediclevel >= 1" },
+            { "JMSLLTE_SE14_30rnd_Mag", "", 30, 60, "call life_mediclevel >= 1" },
+            { "JMSLLTE_DLT19_75Rnd_Mag", "", 35, 70, "call life_mediclevel >= 3" },
             { "JMSLLTE_DC15A_60Rnd_Mag", "", 40, 80, "call life_mediclevel >= 1" },
-            { "JLTS_RPS6_mag", "", 100, 200, "call life_mediclevel >= 1 " },
+            { "JMSLLTE_E11D_40Rnd_Mag", "", 50, 100, "call life_mediclevel >= 1" },
+            { "JMSLLTE_DLT19x_10Rnd_Mag", "", 50, 100, "call life_mediclevel >= 1" },
+            { "JMSLLTE_E11_60Rnd_Mag", "", 50, 100, "call life_mediclevel >= 2" },
             { "JMSLLTE_DC17_20rnd_Mag", "", 10, 20, "call life_mediclevel >= 1" }
         };
         accs[] = {
-            { "JMSLLTE_a280_bl_scope", "", 50, 100, "call life_mediclevel >= 1" },
-            { "JMSLLTE_acc_flashlight", "", 25, 50, "call life_mediclevel >= 1" },
-            { "JMSLLTE_DC15a_bl_scope", "", 50, 100, "call life_mediclevel >= 1" }
+            { "JMSLLTE_acc_flashlight", "", 50, 100, "call life_mediclevel >= 1" },
+            { "JMSLLTE_e11_holo_Scope", "", 25, 50, "call life_mediclevel >= 1" },
+            { "JMSLLTE_e11_holoSF_Scope", "", 50, 100, "call life_mediclevel >= 1" },
+            { "JMSLLTE_dlt19x_bl_Scope", "", 50, 100, "call life_mediclevel >= 1" },
+            { "JMSLLTE_E11D_40Rnd_Mag", "", 50, 100, "call life_mediclevel >= 1" }
         };
     };
 };
