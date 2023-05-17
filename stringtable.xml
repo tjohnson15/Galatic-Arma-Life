@@ -11555,28 +11555,10 @@
 			<Chinesesimp>武器装备</Chinesesimp>
         </Key>
         <Key ID="STR_MAR_EMS_Item_Shop">
-            <Original>EMS Item Shop</Original>
-            <Czech>EMS Item Shop</Czech>
-            <French>Magasin de médecin</French>
-            <Spanish>Tienda de Objetos de Médico</Spanish>
-            <Italian>Strumenti EMS</Italian>
-            <Russian></Russian>
-            <German>Sanitäter Ausrüstung</German>
-            <Portuguese>Loja de Items Médicos</Portuguese>
-            <Polish>Wyposażenie medyczne</Polish>
-			<Chinesesimp>医疗物品店</Chinesesimp>
+            <Original>IMR Item Shop</Original>
         </Key>
         <Key ID="STR_MAR_EMS_Clothing_Shop">
-            <Original>EMS Clothing Shop</Original>
-            <Czech>EMS Oblečení Shop</Czech>
-            <French>Uniformes du SAMU</French>
-            <Spanish>Tienda de Ropa de Médico</Spanish>
-            <Italian>Uniformi EMS</Italian>
-            <Russian></Russian>
-            <German>Sanitäter Kleidungsgeschäft</German>
-            <Portuguese>EMS Roupa Loja</Portuguese>
-            <Polish>Sklep odzieżowy EMS</Polish>
-			<Chinesesimp>医疗服装店</Chinesesimp>
+            <Original>IMR Clothing Shop</Original>
         </Key>
         <Key ID="STR_MAR_Helicopter_Garage">
             <Original>Helicopter Garage</Original>
