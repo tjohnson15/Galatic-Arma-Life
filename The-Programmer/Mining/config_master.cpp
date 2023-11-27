@@ -14,7 +14,7 @@
 class The_programmer_Mining {
     default_lang = "en"; // fr / en / es / de
 
-    check_all_rocks_every_x_seconds = 300; //Loop for respawn trees & rocks
+    check_all_rocks_every_x_seconds = 225; //Loop for respawn trees & rocks
     automaticAdd = true; //Put true if you want the physical objects come directly into your bag (Only if virtual_object = false)
 
     class Trees {
@@ -61,17 +61,17 @@ class The_programmer_Mining {
             marker_name[] = {"marker_iron"}; //marker variable
             zoneSize = 40; //area size
 
-            number_of_ores = 8; //number of stones in the area 
+            number_of_ores = 15; //number of stones in the area 
             Number_of_hits = 4; //number of shots to break the stone
 
-            virtual_object = false; //false allows to have a physical object || true allows you to receive virtual objects
+            virtual_object = true; //false allows to have a physical object || true allows you to receive virtual objects
             /* {object, chance, number min, number max} 
                 chance = 1 = 100% 
                         0.7 = 70%
                         0.2 = 20*
             */
             object_given[] = {
-                {"TheProgrammer_iron",0.7,1,3}
+                {"iron_unrefined",0.7,4,6}
             };
         };
 
@@ -81,11 +81,11 @@ class The_programmer_Mining {
             zoneSize = 40;
 
             Number_of_hits = 4;
-            number_of_ores = 8;
+            number_of_ores = 15;
 
-            virtual_object = false;
+            virtual_object = true;
             object_given[] = {
-                {"TheProgrammer_or",0.7,1,3}
+                {"gold_unrefined",0.7,4,6}
             };
         };
 
@@ -95,11 +95,11 @@ class The_programmer_Mining {
             zoneSize = 40;
 
             Number_of_hits = 4;
-            number_of_ores = 8;
+            number_of_ores = 15;
 
-            virtual_object = false;
+            virtual_object = true;
             object_given[] = {
-                {"TheProgrammer_sapphire",0.7,1,3}
+                {"sapphire_unrefined",0.7,4,6}
             };
         };
 
@@ -109,11 +109,11 @@ class The_programmer_Mining {
             zoneSize = 40;
 
             Number_of_hits = 4;
-            number_of_ores = 8;
+            number_of_ores = 15;
 
-            virtual_object = false;
+            virtual_object = true;
             object_given[] = {
-                {"TheProgrammer_charbon",0.7,1,3}
+                {"coal_unrefined",0.7,4,6}
             };
         };
 
@@ -123,11 +123,11 @@ class The_programmer_Mining {
             zoneSize = 40;
 
             Number_of_hits = 4;
-            number_of_ores = 8;
+            number_of_ores = 15;
 
-            virtual_object = false;
+            virtual_object = true;
             object_given[] = {
-                {"TheProgrammer_cuivre",0.7,1,3}
+                {"copper_unrefined",0.7,4,6}
             };
         };
         class Rock_6 {
@@ -136,11 +136,11 @@ class The_programmer_Mining {
             zoneSize = 40;
 
             Number_of_hits = 4;
-            number_of_ores = 8;
+            number_of_ores = 15;
 
-            virtual_object = false;
+            virtual_object = true;
             object_given[] = {
-                {"TheProgrammer_diamant",0.7,1,3}
+                {"diamond_uncut",0.7,4,6}
             };
         };
         class Rock_7 {
@@ -149,11 +149,11 @@ class The_programmer_Mining {
             zoneSize = 40;
 
             Number_of_hits = 4;
-            number_of_ores = 8;
+            number_of_ores = 15;
 
-            virtual_object = false;
+            virtual_object = true;
             object_given[] = {
-                {"TheProgrammer_obsidienne",0.7,1,3}
+                {"obsidan_unrefined",0.7,4,6}
             };
         };
         class Rock_8 {
@@ -162,11 +162,11 @@ class The_programmer_Mining {
             zoneSize = 40;
 
             Number_of_hits = 4;
-            number_of_ores = 8;
+            number_of_ores = 15;
 
-            virtual_object = false;
+            virtual_object = true;
             object_given[] = {
-                {"TheProgrammer_ruby",0.7,1,3}
+                {"ruby_unrefined",0.7,4,6}
             };
         };
         class Rock_9 {
@@ -175,11 +175,11 @@ class The_programmer_Mining {
             zoneSize = 40;
 
             Number_of_hits = 4;
-            number_of_ores = 8;
+            number_of_ores = 15;
 
-            virtual_object = false;
+            virtual_object = true;
             object_given[] = {
-                {"TheProgrammer_cailloux",0.7,1,3}
+                {"rock",0.7,4,6}
             };
         };
     };

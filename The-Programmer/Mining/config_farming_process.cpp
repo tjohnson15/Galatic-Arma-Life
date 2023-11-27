@@ -16,56 +16,79 @@ class Process_Config {
         object_required = "TheProgrammer_iron";
         object_given = "iron_refined";
         text = "Iron Treatment";
-        time = 90; //Time in seconds to process
+        time = 30; //Time in seconds to process
         required_licenses[] = {"license_civ_mining"};
     };
+
     class sapphire {
         object_required = "TheProgrammer_sapphire";
         object_given = "sapphire_refined";
         text = "Sapphire Treatment";
-        time = 90; //Time in seconds to process
+        time = 30; //Time in seconds to process
         required_licenses[] = {"license_civ_mining"};
     };
+
     class copper {
         object_required = "TheProgrammer_cuivre";
-        object_given = "copperRefined";
+        object_given = "copper_refined";
         text = "Copper Treatment";
-        time = 90; //Time in seconds to process
+        time = 30; //Time in seconds to process
         required_licenses[] = {"license_civ_mining"};
     };
+
     class diamond {
         object_required = "TheProgrammer_diamant";
         object_given = "diamond_cut";
         text = "Diamond Treatment";
-        time = 90; //Time in seconds to process
+        time = 30; //Time in seconds to process
         required_licenses[] = {"license_civ_mining"};
     };
+
     class coal {
         object_required = "TheProgrammer_charbon";
         object_given = "coal_refined";
         text = "Coal Treatment";
-        time = 90; //Time in seconds to process
+        time = 30; //Time in seconds to process
         required_licenses[] = {"license_civ_mining"};
     };
-    class ruby {
-        object_required = "TheProgrammer_ruby";
-        object_given = "rubyRefined";
+
+    class Rock {
+        object_required = "TheProgrammer_cailloux";
+        object_given = "cement";
+        text = "Rock Treatment";
+        time = 30; //Time in seconds to process
+        required_licenses[] = {"license_civ_mining"};
+    };
+
+    class Ruby {
+        object_required = "TheProgrammer_Ruby";
+        object_given = "ruby_refined";
         text = "Ruby Treatment";
-        time = 90; //Time in seconds to process
+        time = 30; //Time in seconds to process
         required_licenses[] = {"license_civ_mining"};
     };
+
     class obsidan {
         object_required = "TheProgrammer_obsidienne";
         object_given = "obsidan_refined";
         text = "Obsidan Treatment";
-        time = 90; //Time in seconds to process
+        time = 30; //Time in seconds to process
         required_licenses[] = {"license_civ_mining"};
     };
+
     class gold {
         object_required = "TheProgrammer_or";
-        object_given = "goldbar";
+        object_given = "gold_refined";
         text = "Gold Treatment";
-        time = 90; //Time in seconds to process
+        time = 30; //Time in seconds to process
+        required_licenses[] = {"license_civ_mining"};
+    };
+
+    class tree {
+        object_required = "TheProgrammer_Buche";
+        object_given = "tree";
+        text = "Saw Mill";
+        time = 30; //Time in seconds to process
         required_licenses[] = {"license_civ_mining"};
     };
 };

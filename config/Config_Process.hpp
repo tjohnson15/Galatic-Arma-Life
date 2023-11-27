@@ -10,7 +10,7 @@
 *   class Example {
 *       MaterialsReq[] = {{"cocaine_processed",1},{"heroin_processed",1}};
 *       MaterialsGive[] = {{"diamond_cut",1}};
-*       Text = STR_Process_Example;
+*       Text = "STR_Process_Example";
 *       //ScrollText = "Process Example";
 *       NoLicenseCost = 4000;
 *   };
@@ -29,6 +29,46 @@ class ProcessAction {
         MaterialsReq[] = {{"diamond_uncut",1}};
         MaterialsGive[] = {{"diamond_cut",1}};
         Text = "STR_Process_Diamond";
+        //ScrollText = "Cut Diamonds";
+        NoLicenseCost = 1350;
+    };
+
+    class sapphire {
+        MaterialsReq[] = {{"sapphire_unrefined",1}};
+        MaterialsGive[] = {{"sapphire_refined",1}};
+        Text = "STR_Process_Sapphire";
+        //ScrollText = "Cut Diamonds";
+        NoLicenseCost = 1350;
+    };
+
+    class gold {
+        MaterialsReq[] = {{"gold_unrefined",1}};
+        MaterialsGive[] = {{"gold_refined",1}};
+        Text = "STR_Process_Gold";
+        //ScrollText = "Cut Diamonds";
+        NoLicenseCost = 1350;
+    };
+
+    class ruby {
+        MaterialsReq[] = {{"ruby_unrefined",1}};
+        MaterialsGive[] = {{"ruby_refined",1}};
+        Text = "STR_Process_Ruby";
+        //ScrollText = "Cut Diamonds";
+        NoLicenseCost = 1350;
+    };
+
+    class coal {
+        MaterialsReq[] = {{"coal_unrefined",1}};
+        MaterialsGive[] = {{"coal_refined",1}};
+        Text = "STR_Process_Coal";
+        //ScrollText = "Cut Diamonds";
+        NoLicenseCost = 1350;
+    };
+
+    class obsidan {
+        MaterialsReq[] = {{"obsidan_unrefined",1}};
+        MaterialsGive[] = {{"obsidan_refined",1}};
+        Text = "STR_Process_Obsidan";
         //ScrollText = "Cut Diamonds";
         NoLicenseCost = 1350;
     };

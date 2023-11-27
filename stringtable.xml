@@ -7455,17 +7455,125 @@
         <Key ID="STR_Item_CopperIngot">
             <Original>Copper Ingot</Original>
         </Key>
+        <Key ID="STR_Item_CoalIngotU">
+            <Original>Coal Ore</Original>
+        </Key>
         <Key ID="STR_Item_CoalIngot">
             <Original>Coal Lump</Original>
         </Key>
+        <Key ID="STR_Item_rubyIngotU">
+            <Original>Raw Uncut Ruby Diamonds</Original>
+        </Key>
         <Key ID="STR_Item_rubyIngot">
-            <Original>Ruby</Original>
+            <Original>Ruby Diamond</Original>
+        </Key>
+        <Key ID="STR_Item_goldR">
+            <Original>Refined Gold Nuggets</Original>
+        </Key>
+        <Key ID="STR_Item_goldU">
+            <Original>Gold Ore Rock</Original>
+        </Key>
+        <Key ID="STR_Item_SapphireIngotU">
+            <Original>Sapphire Ore</Original>
         </Key>
         <Key ID="STR_Item_SapphireIngot">
-            <Original>Sapphire</Original>
+            <Original>Sapphire jewels</Original>
+        </Key>
+        <Key ID="STR_Item_obsidanIngotU">
+            <Original>Obsidan Ore</Original>
         </Key>
         <Key ID="STR_Item_obsidanIngot">
             <Original>Obsidan</Original>
+        </Key>
+        <Key ID="STR_Shops_GoldOre">
+            <Original>Gold Ore Buyer</Original>
+        </Key>
+        <Key ID="STR_Item_arrosoir">
+            <Original>Watering Can</Original>
+        </Key>
+        <Key ID="STR_Item_desherbant">
+            <Original>Weed Killer</Original>
+        </Key>
+        <Key ID="seed_cocaine">
+            <Original>Cocaine seed</Original>
+        </Key>
+        <Key ID="seed_cannabis">
+            <Original>Cannabis seed</Original>
+        </Key>
+        <Key ID="seed_corn">
+            <Original>Corn seed</Original>
+        </Key>
+        <Key ID="seed_artichoke">
+            <Original>Artichoke seed</Original>
+        </Key>
+        <Key ID="seed_chili_pepper">
+            <Original>Chili Pepper seed</Original>
+        </Key>
+        <Key ID="seed_wheat">
+            <Original>Wheat seed</Original>
+        </Key>
+        <Key ID="seed_strawberry">
+            <Original>Strawberry seed</Original>
+        </Key>
+        <Key ID="seed_cotton">
+            <Original>Cotton seed</Original>
+        </Key>
+        <Key ID="seed_lettuce">
+            <Original>Lettuce seed</Original>
+        </Key>
+        <Key ID="seed_tomato">
+            <Original>Tomato seed</Original>
+        </Key>
+        <Key ID="seed_tobacco">
+            <Original>Tobacoo seed</Original>
+        </Key>
+        <Key ID="seed_sunflower">
+            <Original>Sunflower seed</Original>
+        </Key>
+        <Key ID="corn">
+            <Original>Corn</Original>
+        </Key>
+        <Key ID="artichoke">
+            <Original>Artichoke</Original>
+        </Key>
+        <Key ID="chili_pepper">
+            <Original>Chili Pepper</Original>
+        </Key>
+        <Key ID="wheat">
+            <Original>Wheat</Original>
+        </Key>
+        <Key ID="strawberry">
+            <Original>Strawberry</Original>
+        </Key>
+        <Key ID="cotton">
+            <Original>Cotton</Original>
+        </Key>
+        <Key ID="lettuce">
+            <Original>Lettuce</Original>
+        </Key>
+        <Key ID="tomato">
+            <Original>Tomato</Original>
+        </Key>
+        <Key ID="tobacco">
+            <Original>Tobacco</Original>
+        </Key>
+        <Key ID="sunflower">
+            <Original>Sunflower</Original>
+        </Key>
+         <Key ID="STR_Process_Sapphire">
+            <Original>Processing Saphire</Original>
+        </Key>
+        <Key ID="STR_Process_Gold">
+            <Original>Processing Gold Nuggets</Original>
+        </Key>
+        <Key ID="STR_Process_Ruby">
+            <Original>Processing Rubies</Original>
+        </Key>
+        <Key ID="STR_Process_Coal">
+            <Original>Processing Coal</Original>
+        </Key>
+        <Key ID="STR_Process_Obsidan">
+            <Original>Processing Obsidan</Original>
         </Key>
         <Key ID="STR_Item_Sand">
             <Original>Sand</Original>

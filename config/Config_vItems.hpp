@@ -135,6 +135,13 @@ class VirtualShops {
         items[] = { "cement" };
     };
 
+    class goldore {
+        name = "STR_Shops_GoldOre";
+        side = "civ";
+        conditions = "";
+        items[] = { "gold_refined" };
+    };
+
     class gold {
         name = "STR_Shops_Gold";
         side = "civ";
@@ -251,6 +258,30 @@ class VirtualItems {
         icon = "icons\ico_lockpick.paa";
     };
 
+    class gold_refined {
+        variable = "gold_Refined";
+        displayName = "STR_Item_goldR";
+        weight = 2;
+        buyPrice = -1;
+        sellPrice = 1000;
+        illegal = false;
+        edible = -1;
+        drinkable = -1;
+        icon = "icons\ico_goldNUG.paa";
+    };
+
+    class gold_unrefined {
+        variable = "gold_unrefined";
+        displayName = "STR_Item_goldU";
+        weight = 4;
+        buyPrice = -1;
+        sellPrice = 1000;
+        illegal = false;
+        edible = -1;
+        drinkable = -1;
+        icon = "icons\ico_rock.paa";
+    };
+
     class goldbar {
         variable = "goldBar";
         displayName = "STR_Item_GoldBar";
@@ -324,10 +355,10 @@ class VirtualItems {
     };
 
     //Mined Items
-    class oil_unprocessed {
+   class oil_unprocessed {
         variable = "oilUnprocessed";
         displayName = "STR_Item_OilU";
-        weight = 7;
+        weight = 4;
         buyPrice = -1;
         sellPrice = -1;
         illegal = false;
@@ -339,7 +370,7 @@ class VirtualItems {
     class oil_processed {
         variable = "oilProcessed";
         displayName = "STR_Item_OilP";
-        weight = 6;
+        weight = 2;
         buyPrice = -1;
         sellPrice = 3200;
         illegal = false;
@@ -349,7 +380,7 @@ class VirtualItems {
     };
 
     class copper_unrefined {
-        variable = "copperUnrefined";
+        variable = "copper_unrefined";
         displayName = "STR_Item_CopperOre";
         weight = 4;
         buyPrice = -1;
@@ -363,7 +394,7 @@ class VirtualItems {
     class copper_refined {
         variable = "copperRefined";
         displayName = "STR_Item_CopperIngot";
-        weight = 3;
+        weight = 2;
         buyPrice = -1;
         sellPrice = 1500;
         illegal = false;
@@ -373,9 +404,9 @@ class VirtualItems {
     };
 
     class iron_unrefined {
-        variable = "ironUnrefined";
+        variable = "iron_unrefined";
         displayName = "STR_Item_IronOre";
-        weight = 5;
+        weight = 4;
         buyPrice = -1;
         sellPrice = -1;
         illegal = false;
@@ -387,7 +418,7 @@ class VirtualItems {
     class iron_refined {
         variable = "ironRefined";
         displayName = "STR_Item_IronIngot";
-        weight = 3;
+        weight = 2;
         buyPrice = -1;
         sellPrice = 3200;
         illegal = false;
@@ -399,7 +430,7 @@ class VirtualItems {
     class sapphire_refined {
         variable = "sapphireRefined";
         displayName = "STR_Item_SapphireIngot";
-        weight = 3;
+        weight = 2;
         buyPrice = -1;
         sellPrice = 3200;
         illegal = false;
@@ -408,10 +439,22 @@ class VirtualItems {
         icon = "icons\ico_sapphire.paa";
     };
 
+    class sapphire_unrefined {
+        variable = "sapphire_unrefined";
+        displayName = "STR_Item_SapphireIngotU";
+        weight = 4;
+        buyPrice = -1;
+        sellPrice = 3200;
+        illegal = false;
+        edible = -1;
+        drinkable = -1;
+        icon = "icons\ico_sapphireUN.paa";
+    };
+
     class ruby_refined {
         variable = "rubyRefined";
         displayName = "STR_Item_rubyIngot";
-        weight = 3;
+        weight = 2;
         buyPrice = -1;
         sellPrice = 3200;
         illegal = false;
@@ -420,10 +463,22 @@ class VirtualItems {
         icon = "icons\ico_ruby.paa";
     };
 
+    class ruby_unrefined {
+        variable = "ruby_unrefined";
+        displayName = "STR_Item_rubyIngotU";
+        weight = 4;
+        buyPrice = -1;
+        sellPrice = 3200;
+        illegal = false;
+        edible = -1;
+        drinkable = -1;
+        icon = "icons\ico_rubyUN.paa";
+    };
+
     class coal_refined {
-        variable = "coalRefined";
+        variable = "coal_refined";
         displayName = "STR_Item_CoalIngot";
-        weight = 3;
+        weight = 2;
         buyPrice = -1;
         sellPrice = 3200;
         illegal = false;
@@ -432,10 +487,34 @@ class VirtualItems {
         icon = "icons\ico_coal.paa";
     };
 
+    class coal_unrefined {
+        variable = "coal_unrefined";
+        displayName = "STR_Item_CoalIngotU";
+        weight = 4;
+        buyPrice = -1;
+        sellPrice = 3200;
+        illegal = false;
+        edible = -1;
+        drinkable = -1;
+        icon = "icons\ico_rock.paa";
+    };
+    
+    class obsidan_unrefined {
+        variable = "obsidan_unrefined";
+        displayName = "STR_Item_obsidanIngotU";
+        weight = 4;
+        buyPrice = -1;
+        sellPrice = 3200;
+        illegal = false;
+        edible = -1;
+        drinkable = -1;
+        icon = "icons\ico_obsidanUN.paa";
+    };
+
     class obsidan_refined {
         variable = "obsidanRefined";
         displayName = "STR_Item_obsidanIngot";
-        weight = 3;
+        weight = 2;
         buyPrice = -1;
         sellPrice = 3200;
         illegal = false;
@@ -444,22 +523,10 @@ class VirtualItems {
         icon = "icons\ico_obsidan.paa";
     };
 
-    class salt_unrefined {
-        variable = "saltUnrefined";
-        displayName = "STR_Item_Salt";
-        weight = 3;
-        buyPrice = -1;
-        sellPrice = -1;
-        illegal = false;
-        edible = -1;
-        drinkable = -1;
-        icon = "icons\ico_saltUnprocessed.paa";
-    };
-
     class salt_refined {
         variable = "saltRefined";
         displayName = "STR_Item_SaltR";
-        weight = 1;
+        weight = 2;
         buyPrice = -1;
         sellPrice = 1450;
         illegal = false;
@@ -471,7 +538,7 @@ class VirtualItems {
     class sand {
         variable = "sand";
         displayName = "STR_Item_Sand";
-        weight = 3;
+        weight = 4;
         buyPrice = -1;
         sellPrice = -1;
         illegal = false;
@@ -483,7 +550,7 @@ class VirtualItems {
     class glass {
         variable = "glass";
         displayName = "STR_Item_Glass";
-        weight = 1;
+        weight = 2;
         buyPrice = -1;
         sellPrice = 1450;
         illegal = false;
@@ -493,7 +560,7 @@ class VirtualItems {
     };
 
     class diamond_uncut {
-        variable = "diamondUncut";
+        variable = "diamond_uncut";
         displayName = "STR_Item_DiamondU";
         weight = 4;
         buyPrice = -1;
@@ -519,7 +586,7 @@ class VirtualItems {
     class rock {
         variable = "rock";
         displayName = "STR_Item_Rock";
-        weight = 6;
+        weight = 4;
         buyPrice = -1;
         sellPrice = -1;
         illegal = false;
@@ -528,10 +595,22 @@ class VirtualItems {
         icon = "icons\ico_rock.paa";
     };
 
+    class tree {
+        variable = "tree";
+        displayName = "STR_Item_Plank";
+        weight = 4;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        drinkable = -1;
+        icon = "icons\ico_plank.paa";
+    };
+
     class cement {
         variable = "cement";
         displayName = "STR_Item_CementBag";
-        weight = 5;
+        weight = 2;
         buyPrice = -1;
         sellPrice = 1950;
         illegal = false;
